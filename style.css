@@ -243,7 +243,9 @@ body {
 
 .project {
   text-align: center;
-  border: 1px solid rgba(24, 206, 212, 15);
+  border: 3px solid rgba(24, 206, 212, 15);
+  border-radius: 24px;
+  transition: transform 0.5s;
 }
 
 .project > a > img {
@@ -252,8 +254,12 @@ body {
   object-fit: cover;
   border-radius: inherit;
   transition: transform 0.5s;
+  border-radius: 20px;
 }
 
-.project > a > img:hover {
+/* .project > a > img:hover {
+  transform: scale(1.05);
+} */
+.project:hover{
   transform: scale(1.05);
 }
