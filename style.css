@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-html, body{
+html,
+body {
   scroll-behavior: smooth;
 }
 body {
@@ -257,9 +258,6 @@ body {
   border-radius: 20px;
 }
 
-/* .project > a > img:hover {
-  transform: scale(1.05);
-} */
-.project:hover{
+.project:hover {
   transform: scale(1.05);
 }
